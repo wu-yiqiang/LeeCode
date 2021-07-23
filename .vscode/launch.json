@@ -18,6 +18,11 @@
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}"
     },
-    
+    {
+      "name": "Launch file",
+      "type": "go",
+      "mode":"debug",
+      "program": "${file}",
+    }
   ]
 }
